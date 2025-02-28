@@ -1,2 +1,16 @@
-package com.example.internbankingtask.model.payload;public class CardPayload {
+package com.example.internbankingtask.model.payload;
+
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class CardPayload {
+    String pan;
+    String cvv;
+    String expireDate;
+    Double balance;
 }

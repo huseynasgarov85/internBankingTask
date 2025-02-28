@@ -1,4 +1,4 @@
-package com.example.internbankingtask.util;
+package com.example.internbankingtask.util.otp;
 
 import org.springframework.stereotype.Component;
 

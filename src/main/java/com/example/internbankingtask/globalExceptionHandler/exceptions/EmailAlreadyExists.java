@@ -1,4 +1,4 @@
-package com.example.internbankingtask.globalExceptionHandler;
+package com.example.internbankingtask.globalExceptionHandler.exceptions;
 
 public class EmailAlreadyExists extends RuntimeException {
 
